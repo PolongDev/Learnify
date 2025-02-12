@@ -2,7 +2,7 @@
 
 ![geoMastermind WebbApp Responsiveness](docs/screenshots/readme-geomastermind-banner.png)
 
-<b>Visit the deployed site:</b> [geoMastermind](https://kimbergstroem.github.io/geoMastermind-Game/)
+<b>Visit the deployed site:</b> [geoMastermind](https://polongdev.github.io/geoMastermind-Game/)
 
 
 Get ready to put your geography skills to the test with geoMastermind! 
@@ -319,9 +319,8 @@ The background image on the webbapplication was created by myself and the progra
 I'd like to give recognition to the individuals who supported me in finishing this project:
 
 * I would like to express my heartfelt appreciation to my family for their patience and assistance in identifying spelling mistakes and testing issues. Their support has been invaluable in improving the quality of this project.
-I would also like to extend my gratitude to two testers who have made significant contributions: [Debbie B](https://github.com/DebbieBergstrom) and [Sandra B](https://github.com/SandraBergstrom). They have been instrumental in providing necessary feedback, identifying errors, and offering valuable tips. Their involvement has greatly contributed to the overall refinement of the project.
-
-* [Jubril](https://github.com/Jubrillionaire), my Code Institute Mentor, for his exceptional guidance and expertise. His mentorship has been a source of inspiration and has greatly contributed to my growth as a developer.
+ 
+* [Mark Ryan Perez], my Code Institute Mentor, for his exceptional guidance and expertise. His mentorship has been a source of inspiration and has greatly contributed to my growth as a developer.
 
 &nbsp;
 ### **License** 🔹
