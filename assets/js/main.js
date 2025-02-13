@@ -115,7 +115,7 @@ const [
 let currentQuestionIndex = 0; // Keeps track of the current question index
 let score = 0; // Stores the score accumulated by the user
 let counter;
-let timeValue = 10;
+let timeValue = 30;
 
 function toggleSections(elementToShow, ...elementsToHide) {
   elementToShow.classList.remove("hidden"); // Show the specified element
@@ -226,7 +226,7 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q10-greece.png' alt='White and blue buildings on a island'>",
-    question: "Wich island is this?", // Question 10
+    question: "Wich island is this?", // Question 30
     answers: [
       { text: "Santorini, Greece", correct: true}, // Correct Answer
       { text: "Crete, Greece", correct: false},
@@ -239,7 +239,7 @@ const questions = [
 function startQuiz() {
   currentQuestionIndex = 0; // Reset the current question index to the beginning
   score = 0; // Reset the score to 0
-  startTimer(10);
+  startTimer(30);
   nextButton.innerHTML = "Next"; // Set the innerHTML of the Next button to "Next"
   backButton.innerHTML = "Back"; // Set the innerHTML of the Back button to "Back"
   answerButtons.innerHTML = ""; // Clear the answer buttons
@@ -252,7 +252,7 @@ function showQuestion(){
   let currentQuestion = questions[currentQuestionIndex];
   let questionNumber = currentQuestionIndex + 1;
   questionElement.innerHTML = currentQuestion.question;
-  questionCounter.innerHTML = `${questionNumber} of 10 Questions`;
+  questionCounter.innerHTML = `${questionNumber} of 30 Questions`;
   
   // Set the image source
   questionImage.innerHTML = currentQuestion.image;
@@ -299,7 +299,7 @@ function selectAnswer(event){ // Handles the selection of an answer
 function showScore(){
   resetState(); 
    // The character "`" (backtick) is used in this code snippet to define a template literal or a template string in JavaScript.  Becomes more readable and easier to work with. 
-    if (score === 10){
+    if (score === 30){
       questionElement.innerHTML = `You scored ${score} out of ${questions.length}! <br> You are a  true GEO PRO!`;
     }else if (score <=5){
       questionElement.innerHTML = `You scored ${score} out of ${questions.length} <br> Are you even trying?`;
