@@ -196,7 +196,7 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "1. Alexei had over the vast Siberian expanse more than once", // Question 6
+    question: "1. Alexei had over the vast Siberian expanse more than once", // Question 7
     answers: [
       { text: "a. drove", correct: false},
       { text: "b. drived", correct: false},
@@ -206,6 +206,36 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
+    question: "2. Johnny ate the cookies by the time we got home.", // Question 8
+    answers: [
+      { text: "a. all ready", correct: false},
+      { text: "b. al ready", correct: false},
+      { text: "c. already", correct: true}, // Correct Answer
+      { text: "d. readily", correct: false},
+    ]
+  },
+  {
+    image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
+    question: "6. Given the x³ x = y³, what is y³ equal to if x=4?", // Question 6
+    answers: [
+      { text: "a. 64", correct: true}, // Correct Answer
+      { text: "b. 24", correct: false},
+      { text: "c. 16", correct: false},
+      { text: "d. 42", correct: false},
+    ]
+  },
+  {
+    image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
+    question: "6. Given the x³ x = y³, what is y³ equal to if x=4?", // Question 6
+    answers: [
+      { text: "a. 64", correct: true}, // Correct Answer
+      { text: "b. 24", correct: false},
+      { text: "c. 16", correct: false},
+      { text: "d. 42", correct: false},
+    ]
+  },
+  {
+    image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
     question: "6. Given the x³ x = y³, what is y³ equal to if x=4?", // Question 6
     answers: [
       { text: "a. 64", correct: true}, // Correct Answer
@@ -245,7 +275,6 @@ const questions = [
     ]
   },
   {
-    
     image: "<img src='assets/images/quiz/q10-greece.png' alt='White and blue buildings on a island'>",
     question: "1. Alexei had over the vast Siberian expanse more than once", // Question 7
     answers: [
