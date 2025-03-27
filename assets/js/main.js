@@ -196,7 +196,7 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "1. Alexei had over the vast Siberian expanse more than once", // Question 7
+    question: "1. Alexei had ______ over the vast Siberian expanse more than once", // Question 7
     answers: [
       { text: "a. drove", correct: false},
       { text: "b. drived", correct: false},
@@ -206,7 +206,7 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Johnny ate the cookies by the time we got home.", // Question 8
+    question: "2. Johnny ______ ate the cookies by the time we got home.", // Question 8
     answers: [
       { text: "a. all ready", correct: false},
       { text: "b. al ready", correct: false},
@@ -216,42 +216,42 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "6. Given the x³ x = y³, what is y³ equal to if x=4?", // Question 6
+    question: "3. My dad gave Erik and some UAAP season tickets.", // Question 9
     answers: [
-      { text: "a. 64", correct: true}, // Correct Answer
-      { text: "b. 24", correct: false},
-      { text: "c. 16", correct: false},
-      { text: "d. 42", correct: false},
+      { text: "a. me", correct: true}, // Correct Answer
+      { text: "b. I", correct: false},
+      { text: "c. them", correct: false},
+      { text: "d. us", correct: false},
     ]
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "6. Given the x³ x = y³, what is y³ equal to if x=4?", // Question 6
+    question: "4. Fabio never liked the ancient necropolis at the outskirts of town", // Question 10
     answers: [
-      { text: "a. 64", correct: true}, // Correct Answer
-      { text: "b. 24", correct: false},
-      { text: "c. 16", correct: false},
-      { text: "d. 42", correct: false},
+      { text: "a. A large and old cemetery", correct: true}, // Correct Answer
+      { text: "b. A city on a hill", correct: false},
+      { text: "c. An elevated villa", correct: false},
+      { text: "d. A dark city", correct: false},
     ]
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "6. Given the x³ x = y³, what is y³ equal to if x=4?", // Question 6
+    question: "5. The nomadic Mongols lived in yurts since the days of Genghis khan.", // Question 11
     answers: [
-      { text: "a. 64", correct: true}, // Correct Answer
-      { text: "b. 24", correct: false},
-      { text: "c. 16", correct: false},
-      { text: "d. 42", correct: false},
+      { text: "a. Tents", correct: true}, // Correct Answer
+      { text: "b. Houses", correct: false},
+      { text: "c. Caravants", correct: false},
+      { text: "d. Wagons", correct: false},
     ]
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "6. Given the x³ x = y³, what is y³ equal to if x=4?", // Question 6
+    question: "6. The Pope appointed a new apostolic nuncio to France.", // Question 12
     answers: [
-      { text: "a. 64", correct: true}, // Correct Answer
-      { text: "b. 24", correct: false},
-      { text: "c. 16", correct: false},
-      { text: "d. 42", correct: false},
+      { text: "a. Bishop", correct: false},
+      { text: "b. Cardinal", correct: false},
+      { text: "c. Envoy", correct: true}, // Correct Answer
+      { text: "d. Prelate", correct: false},
     ]
   },
   {
