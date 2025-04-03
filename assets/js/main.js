@@ -339,9 +339,9 @@ const questions = [
     question: "3. In a plant, what part stores sugars as starch?", // Question 21
     answers: [
       { text: "a. Leaves", correct: false},
-      { text: "b. Roots", correct: false},
+      { text: "b. Roots", correct: true}, // Correct Answer
       { text: "c. Seeds", correct: false},
-      { text: "d. Stem", correct: true}, // Correct Answer
+      { text: "d. Stem", correct: false},
     ]
   },
   {
